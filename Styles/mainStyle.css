@@ -1,0 +1,76 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+:root {
+   /* 1rem = 10px */
+   font-size: 62.5%;
+
+   --hue: 240;
+
+   --itemsSaturation: 6%;
+   --itemsColorLightness: 21%;
+   --itemsColorLightTheme: hsl(var(--hue), var(--itemsSaturation), var(--itemsColorLightness));
+
+   --itemsColorHoverLightness: 100%;
+   --itemsColorLightThemeHover: hsl(var(--hue), var(--itemsSaturation), var(--itemsColorHoverLightness));
+
+   --soundCardsColorSaturation: 9%;
+   --soundCardsColorLightness: 89%;
+   --soundCardsColor: hsl(var(--hue), var(--soundCardsColorSaturation), var(--soundCardsColorLightness));
+
+   --soundCardsColorHoverHue: 194;
+   --soundCardsColorHoverSaturation: 97%;
+   --soundCardsColorHoverLightness: 31%;
+   --soundCardsColorHover: hsl(var(--soundCardsColorHoverHue), var(--soundCardsColorHoverSaturation), var(--soundCardsColorHoverLightness));
+
+   --timerColorSaturation: 6%;
+   --timerColorLightness: 21%;    
+   --timerColor: hsl(var(--hue), var(--timerColorSaturation), var(--timerColorLightness));
+
+   --bgColorSaturation: 5%;
+   --bgColorLightness: 100%;
+   --bgColor: hsl(var(--hue), var(--bgColorSaturation), var(--bgColorLightness));
+
+
+   
+
+}
+
+body {
+   display: grid;
+   min-height: 100vh;
+
+   font-family: 'Roboto', sans-serif;
+   position: relative;
+
+   background-color: var(--bgColor);
+}
+
+.iconThemeMode {
+   position: fixed;
+
+   top: 6rem;
+   right: 6rem;
+}
+
+main {
+   
+   display: flex;
+   gap: 10rem;
+
+   justify-self: center;
+   align-self: center;
+}
+
+button {
+   background-color: transparent;
+   border: none;
+   cursor: pointer;
+}
+
+.hide {
+   display: none;
+}

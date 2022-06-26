@@ -1,0 +1,81 @@
+#blockTwo .controlsSounds button svg {
+   width: clamp(2rem, 2rem + 10vw, 4rem);
+}
+
+#blockTwo .controlsSounds {
+   display: grid;
+   height: 33.6rem;
+  
+   grid-template-areas: "A B" "C D";
+
+   gap: 3.2rem
+}
+
+#blockTwo .controlsSounds svg path {
+   fill: var(--itemsColorLightTheme);
+}
+
+#blockTwo .optionSound:hover svg path {
+   fill: var(--itemsColorLightThemeHover);
+}
+
+#blockTwo .optionSound {
+   width: 13.8rem;
+   height: 15.2rem;
+   background-color: var(--soundCardsColor);
+
+   border-radius: 2.4rem;
+
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+
+   padding: 2.5rem;
+}
+
+#blockTwo .optionSound:hover {
+   background-color: var(--soundCardsColorHover);
+}
+
+#blockTwo .volumeRange {
+   width: 9rem;
+   height: 0.3em;
+   margin-top: 3.5rem;
+   border-radius: 0.5rem;
+
+   background-color: var(--itemsColorLightTheme);
+
+   cursor: grab;
+   appearance: none;
+}
+
+#blockTwo .volumeRange::-webkit-slider-thumb {
+   appearance: none;
+   width: 1.6rem;
+   height: 1.6rem;
+   background-color: var(--itemsColorLightTheme);
+   border-radius: 50px;
+ }
+
+ #blockTwo .optionSound:hover .volumeRange,
+ #blockTwo .optionSound:hover .volumeRange::-webkit-slider-thumb {
+   background-color: var(--itemsColorLightThemeHover);
+ }
+
+#blockTwo .optionForestSound {
+   grid-area: "A";
+}
+
+#blockTwo .optionRainSound {
+   grid-area: "B";
+}
+
+#blockTwo .optionCoffeeShopSound {
+   grid-area: "C";
+}
+
+#blockTwo .optionFireSound {
+   grid-area: "D";
+}
+
+

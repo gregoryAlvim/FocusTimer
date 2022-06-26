@@ -1,0 +1,28 @@
+#blockOne {
+   width: 26rem;
+
+   align-self: center;
+}
+
+#blockOne .timer {
+   display: flex;
+   justify-content: center;
+}
+
+#blockOne .timer span {
+   color: var(--timerColor);
+   font-size: 11rem;
+}
+
+#blockOne .controlsTimer {
+   display: flex;
+   justify-content: space-between;
+}
+
+#blockOne .controlsTimer svg path {
+   fill: var(--itemsColorLightTheme);
+}
+
+#blockOne .controlsTimer button svg {
+   width: clamp(1rem, 2rem + 10vw, 4rem);
+}
