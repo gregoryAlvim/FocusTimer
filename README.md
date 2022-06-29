@@ -1,4 +1,4 @@
-# 💻 FocusTimer
+# FocusTimer
 
 <br/>
 
@@ -11,8 +11,8 @@
    <a href="#features"> Features </a> •
    <a href="#tecnologias"> Tecnologias </a> •
    <a href="#requisitos"> Pré Requisitos </a> •
-   <a href="#licença"> Licença </a> •
-   <a href="#autor"> Autor</a>
+   <a href="#autor"> Autor </a> 
+   
 </p>
 
 <br/>
@@ -52,10 +52,17 @@ Tecnologias utilizadas para desenvolvimento do Temporizador Web:
 
 ## Requisitos
 
-
-- [Git](https://git-scm.com/)     
-- [Visual Studio Code - Vscode](https://code.visualstudio.com/)
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+- [Git - Opcional](https://git-scm.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+
+<br/>
+
+## Autor
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gr%C3%A9gory-alvim)  [![E-mail](https://img.shields.io/badge/Email-lightgrey?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gregori.alvim@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)
+
+
 
 <h4 align="center">
    🚧 README em construção... 🚧
