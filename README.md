@@ -52,8 +52,8 @@ Tecnologias utilizadas para desenvolvimento do Temporizador Web:
 
 ## Requisitos
 
-Tecnologias utilizadas para desenvolvimento do Temporizador Web:
 
+- [Git](https://git-scm.com/)     
 - [Visual Studio Code - Vscode](https://code.visualstudio.com/)
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
