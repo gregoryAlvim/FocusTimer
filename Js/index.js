@@ -20,17 +20,19 @@ const controls = Controls({
 });
 
 const timer = Timer({
-   minutesDisplay, secondsDisplay, stopSounds: sounds.stopSounds, resetSoundsColors: controls.resetSelectSounds
+   minutesDisplay, secondsDisplay, stopSounds: sounds.stopSounds, resetSoundsColors: controls.resetSelectSounds, timerEnd: sounds.timeEnd, buttonPlay
 });
 
 buttonPlay.addEventListener('click', () => {
    timer.countDown();
    sounds.pressButton();
+   buttonPlay.setAttribute('disabled', 'true');
 })
 
 buttonStop.addEventListener('click', () => {
-   timer.hold();
    sounds.pressButton();
+   timer.hold();
+   buttonPlay.removeAttribute('disabled');
 })
 
 buttonIncrease.addEventListener('click', () => {

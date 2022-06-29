@@ -1,5 +1,5 @@
 export default function({
-   minutesDisplay, secondsDisplay, stopSounds, resetSoundsColors
+   minutesDisplay, secondsDisplay, stopSounds, resetSoundsColors, timerEnd, buttonPlay
 }) {
 
    let timerTimeOut;
@@ -15,7 +15,9 @@ export default function({
          if ( minutes <= 0 && seconds <= 0 ) {
             stopSounds();
             resetSoundsColors();
+            timerEnd();
             minutesDisplay.textContent = initialMinutes;
+            buttonPlay.removeAttribute('disabled');
             return;
          } else if ( seconds <= 0 ) {
             seconds = 60;
