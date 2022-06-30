@@ -23,6 +23,8 @@ O desafio foi construir um temporizador web do zero utilizando a prototipação 
 <a href="https://www.figma.com/file/T53I9hcMCyeIVjrO7lbPme/Stage-05---Dark-Mode-FocusTimer-(Copy)?node-id=0%3A1" target="_blank">Figma</a>,
 para fortalecer meus conhecimentos em HTML, CSS e JavaScript aplicando os conceitos que foram vistos anteriormente no stage 5 do Explorer.
 
+Para visualizar e utilizar o Focus Timer, <a href="https://gregoryalvim.github.io/FocusTimer/Page/index.html" target="_blank">clique aqui</a>.
+
 <br/>
 
 ## Features
