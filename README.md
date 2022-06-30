@@ -65,8 +65,12 @@ Tecnologias utilizadas para desenvolvimento do Temporizador Web:
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gr%C3%A9gory-alvim)  [![E-mail](https://img.shields.io/badge/Email-lightgrey?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gregori.alvim@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)
 
 
+&nbsp;
 
-<h4 align="center">
+
+<p align="center"> Made with 💙 by Grégory Alvim </p>
+
+<!-- <h4 align="center">
    🚧 README em construção... 🚧
-</h4>
+</h4> -->
 
