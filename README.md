@@ -1,4 +1,4 @@
-# FocusTimer
+# Focus Timer
 
 <br/>
 
